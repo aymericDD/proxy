@@ -10,6 +10,7 @@ import (
 	"github.com/cilium/proxy/pkg/lock"
 	"github.com/cilium/proxy/proxylib/accesslog"
 	_ "github.com/cilium/proxy/proxylib/cassandra"
+	_ "github.com/cilium/proxy/proxylib/httpfault"
 	_ "github.com/cilium/proxy/proxylib/kafka"
 	_ "github.com/cilium/proxy/proxylib/memcached"
 	"github.com/cilium/proxy/proxylib/npds"
